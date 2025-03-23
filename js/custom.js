@@ -21,7 +21,9 @@ $(document).ready(function () {
 
     // PRE LOADER
     $(window).load(function(){
-      $('.preloader').fadeOut(1000); // set duration in brackets    
+      setTimeout(()=>{
+        $('.preloader').fadeOut(1000); // set duration in brackets
+      }, 3000);    
     });
 
     // CUSTOM LINK
